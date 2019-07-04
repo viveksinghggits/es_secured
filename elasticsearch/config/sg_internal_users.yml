@@ -12,7 +12,7 @@ _sg_meta:
 ## Demo users
 
 admin:
-  hash: ${envbc.ADMIN_PWD} 
+  hash: "$2y$12$lGTxpxS7l9Gpzm0TOfQIWeW33TzfmavwXrEv0FPwC5W8Y84Z90ouG"
   reserved: true
   backend_roles:
   - "admin"
